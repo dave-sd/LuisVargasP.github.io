@@ -1,26 +1,179 @@
 ---
 layout: default
-title: Long Haul
+title: Luis Vargas Peñafiel
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
-    {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p>{% if post.description %}{{ post.description }}{% else %}{{ post.excerpt | strip_html }}{% endif %}</p>
-      </li>
-    {% endfor %}
-  </ul>
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="previous button__outline">Newer Posts</a> 
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next button__outline">Older Posts</a>
-    {% endif %}
-  </div>
+  <h1 class="pageTitle">Introduccion a la Ingenieria</h1>
+  <center><h2>Unidad 1</h2></center>
+  <h2><center>Fundamentos a la Ingenieria de Software</center></h2>
+  <center><img src="https://leonides1993.files.wordpress.com/2014/05/jhkc3b1.jpg"></center>
+  <p>La Ingenieria de Software es una aplicación práctica del conocimiento científico para poveer metologías y técnicas que ayuden a dessarrollar sistemas de software a tiempo, y a su vez que aseguren que el desarrollador cumpla con las espectativas de calidad y permanezca dentro del presupuesto </p>
+  <h2>Objetivo de la IS</h2>
+  <p>-Diseñar programas informáticos que se adecúen a las exigencias de la sociedad.<br>-Liderar y acoplar el desarrollo de programaciones complicadas.<br>
+    -Actuar en todas las fases del ciclo de vida de un producto.<br>-Computar los costos de un proyecto y evaluar los tiempos de desarrollo.<br>
+    -Realizar el seguimiento de costes y plazos.<br>-Liderar equipos de trabajo de desarrollo software.<br></p>
+  <h2>Origen de IS</h2>
+  <p>Ingeniería del Software, es el término utilizado por Fritz Bauer en la primera conferencia sobre desarrollo de software patrocinada por el Comité de Ciencia de la 
+  OTAN celebrada en Garmisch (Alemania), en octubre de 1968, previamente había sido utilizado por el holandés Edsger Dijkstra en su obra The Humble Programmer.</p>
+  <h2>La Evolución del Software</h2>
+  <p>-El término “evolución” del software se utiliza desde los sesenta para denominar la dinámica de crecimiento del software.<br>
+  -Una definición atribuida a Lehman y Ramil dice que la evolución del software es “todas las actividades de programación que se orientan a generar una nueva versión de un software a partir de una versión anterior operativa. </p>
+  <h2>La Crisis del Software</h2>
+  <center><img src="http://histinf.blogs.upv.es/files/2010/12/crisis.png"></center>
+  <p>-La palabra crisis se define en el diccionario como "un punto decisivo en el curso de algo; momento, etapa, o evento decisivo o crucial". Sin embargo para el software no ha habido ningún punto crucial, sólo una lenta evolución.<br>
+  -La crisis en la industria del software permanece durante muchos años, lo cual parece una contradicción para el término. Lo que si se podría decir es que hay un problema crónico en el desarrollo de software.</p>
+  <h2>¿Por qué se crea la IS?</h2>
+  <p>La ingeniería de software se crea debido a las siguientes características:<br>
+  -El producto debe ser confiable y realizar sólo las tareas especificadas en los requerimientos.<br>
+  -El producto debe ser robusto. Esto quiere decir que el software se comporta de manera razonable, incluso en circunstancias no anticipadas desde el principio.<br>
+  -El producto de software debe ser lo más reutilizable posible, de manera tal que pueda ser incorporado en otro producto de software si se requiere.<br>
+  -El producto de software debe ser eficiente en el uso de los recursos del sistema.</p>
+  <h2>El Software en la actualidad</h2>
+  <p>Las direcciones en las que evoluciona la ingeniería del software hoy en día pueden agruparse de la siguiente manera:<br>
+-Metodologías ágiles<br>
+-Experimentación<br>
+-Desarrollo dirigido por modelos<br>
+-Líneas de productos software</p>
+<center><h2>Procesos de Ingeniería de información</h2></center>
+<h2>Factores de calidad del Software</h2>
+<p><b>Concepto de Calidad:</b> Conjunto de propiedades y de características de un producto o servicio, que le confieren aptitud para satisfacer una necesidad explícita o implícita (ISO 8402).<br>
+<b>Calidad del Software:</b> Es el grado con el que un sistema, componente o proceso cumple los requerimientos especificados y las necesidades o expectativas del cliente o usuario.</p>
+<h2>Métricas del Software</h2>
+<p><b>1.-Métricas técnicas: </b>Se centran en las características del software. Aquí medimos la complejidad lógica y el grado de modularidad del sistema. Mide la estructura del sistema, el cómo está hecho.<br>
+<b>2.-Métricas de calidad: </b> Son todas las métricas de software que definen de una u otra forma la calidad del software; tales como corrección, exactitud, integridad, facilidad de uso, enre otros.<br>
+<b>3.-Métricas de Productividad: </b> Se centran en el rendimiento del proceso de la ingeniería del software. Es decir qué tan productivo va a ser el software que voy a diseñar. Se refiere a las características del software.<br>
+<b>4.-Métricas de costo: </b> se centra en el costo total del sistema informático.<br>
+<b>5.-Métricas orientadas al tamaño: </b> Esta nos permite conocer el tiempo en el que se terminará el software y cuántas personas se necesitan para su desarrollo, aquí medimos las variables con las que desarrollamos el software.<br>
+<b>6.-Métricas orientadas a la función o puntos de función: </b>Son medidas indirectas del software y del proceso por el cual se desarrolla. En lugar de calcular las líneas de código (LDC), las métricas de función se centran en la funcionalidad o utilidad del programa. Los puntos de función nos indican la medida de la productividad.</p>
+  <h2>Problemas en el desarrollo de Software</h2>
+  <p><b>¿Qué es un proyecto software?</b><br>
+Un proyecto software es un esfuerzo temporal que se lleva a cabo para crear un producto software, servicio TI o resultado único.<br>
+<b>¿Pero que es el software?</b><br>
+Según la definición del IEEE, "software es la suma total de los programas de ordenador, procedimientos, reglas, la documentación asociada y los datos que pertenecen a un sistema de cómputo", y "un producto de software es un producto diseñado para un usuario".<br>
+<b>El software puede dividirse en dos grandes categorías:</b><br>
+-Software de aplicaciones<br>
+-Software de sistemas</p>
+<h2>Ingeniería del Software</h2>
+<p>La Ingeniería del Software es la rama de la ingeniería que crea y mantiene las aplicaciones de software usando tecnologías y prácticas de las ciencias de la computación, manejo de proyectos, ingeniería, el ámbito de la aplicación, y otros campos.</p>
+<h2>Código Ética (ACM/IEEE)</h2>
+<center><img src="https://d3cdtxx03omvla.cloudfront.net/22295585_1518654652784.jpg"></center>
+ <p><b>Principios del código</b><br>
+-Público<br>
+-Cliente y Empleador<br>
+-Producto<br>
+-Juicio<br>
+-Gerencia<br>
+-Profesión<br>
+-Colegas<br>
+-Interés Propio</p>
+<center><h2>Sistema de Información</h2></center>
+<h2>Concepto</h2>
+ <p>Un sistema de información es un conjunto de elementos interrelacionados con el propósito de prestar atención a las demandas de información de una organización, para elevar el nivel de conocimientos que permitan un mejor apoyo a la toma de decisiones y desarrollo de acciones (Peña, 2006).<br>
+Un sistema de información realiza cuatro actividades básicas:<br>
+-Entrada de información<br>
+-Almacenamiento de información<br>
+-Procesamiento de información<br>
+-Salida de información</p>
+<h2>Tipos de sistemas de Información</h2>
+<p>Los sistemas de información, de manera general se pueden clasificar de tres formas según sus propósitos generales, en este sentido Peralta (2008) clasifica los sistemas de información en tres tipos fundamentales:<br>
+1.-Sistemas transaccionales<br>
+2.-Sistemas de Soporte a la Toma de Decisiones, Sistemas<br>
+3.-Sistemas estratégicos</p>
+<h2>Elementos de un sistema de información</h2>
+<p>-Financieros<br>
+-Administrativos<br>
+-Humanos<br>
+-Materiales<br>
+-Tecnológicos<br>
+Otro autor desconocido (s/a, 2008b) plantea que un sistema de información está compuesto por 6 elementos y son: <br>
+-Base de Datos <br>
+-Transacciones<br>
+-Informes<br>
+-Procesos<br>
+-Usuario<br>
+  -Procedimientos Administrativos</p>
+  <center><h1>Unidad 2</h1></center>
+  <center><h2>Proceso de Software</h2></center>
+  <center><img src="https://okhosting.com/resources/uploads/2018/03/modelos-de-sistemas-software.png"></center>
+  <h2>El Proceso de Software</h2>
+  <p>Un conjunto estructurado de actividades necesarias para desarrollar un sistema de software.<br>
+Muchos de los procesos de software son diferentes, pero todos implican:<br>
+-Especificación<br>
+-Diseño e implementación<br>
+-Validación<br>
+-Evolución<br></p>
+  <h2>Características del Proceso Software</h2>
+  <p>-El proceso establece todas las actividades principales<br>
+-El proceso utiliza recursos, está sujeto a una serie de restricciones y genera productos intermedios y finales<br>
+-El proceso puede estar compuesto de subprocesos que se encadenan de alguna manera. Puede definirse como una jerarquía de procesos organizada de modo que cada subproceso tenga su propio modelo de proceso<br>
+-Cada actividad del proceso tiene criterios de entrada y de salida, de modo que se conoce cuándo comienza y cuándo termina una actividad</p>
+<h2>Ciclo de vida del Software</h2>
+ <p>Cuando un proceso implica la construcción de algún producto, suele referirse al proceso como un ciclo de vida<br>
+-El proceso de desarrollo de software suele denominarse ciclo de vida del software<br>
+Se puede definir ciclo de vida del software como:<br>
+Las distintas fases por las que pasa el software desde que nace una necesidad de mecanizar un proceso hasta que deja de utilizarse el software que sirvió para ese objetivo, pasando por las fases de desarrollo y explotación [Frakes et al., 1991]</p>
+<h2>Ámbito general del ciclo de vida del Software</h2>
+<p>Desde un punto de vista general puede considerarse que el ciclo de vida de un software tiene tres etapas claramente diferenciadas: <br>
+-Planificación<br>
+-Implementación<br>
+-Puesta en producción</p>
+<h2>Razones para modelar un proceso de Software</h2>
+<p>-Cuando se pone por escrito una descripción de un proceso, se da forma a una comprensión común de las actividades, recursos y restricciones relacionados con el desarrollo del software.<br>
+-Ayuda al equipo de desarrollo a encontrar las inconsistencias, las redundancias y las omisiones en el proceso y en las partes que lo constituyen.<br>
+-El modelo debe reflejar las metas del desarrollo. A medida que se construye el modelo el equipo de desarrollo evalúa las actividades candidatas por su adecuación para alcanzar dichas metas.</p>
+<h2>Modelo general de proceso en Ingeniería</h2>
+<p>-Especificación<br>
+-Diseño<br>
+-Fabricación<br>
+-Prueba<br>
+-Instalación<br>
+-Mantenimiento</p>
+<h2>El proceso de Software</h2>
+<p>Conjunto de actividades necesarias para transformar las ideas iniciales del usuario, que desea automatizar un determinado trabajo, en software.</p>
+<h2>Modelos de proceso de Software</h2>  
+<p>1.-Modelo de cascada<br>
+2.-Desarrollo incremental<br>
+3.-Modelo espiral<br>
+4.-Desarrollo Rápido de Aplicaciones (DRA) <br>
+5.-Orientados a la reutilización<br>
+6.-Orientado a Objetos</p>
+<center><h2>Modelos de proceso Software</h2></center>
+<h2>Modelo Cascada</h2>
+ <center><img src="https://user.oc-static.com/upload/2017/07/11/14997883020913_Captura%20de%20pantalla%202017-07-11%20a%20las%2017.51.18.png"></center> 
+  <p><b>Las fases están identificadas por separado:</b><br>
+-El análisis y definición de requerimientos<br>
+-Diseño del sistema y software.<br>
+-Pruebas de implementación de unidades<br>
+-Integración y pruebas del sistema<br>
+-Operación y mantenimiento<br>
+El principal inconveniente del modelo de la cascada es la dificultad de acomodar el cambio después de que está en marcha el proceso. En principio, una fase tiene que ser completada antes de pasar a la siguiente fase.</p>
+<h2>Modelo Desarrollo Incremental</h2>
+<img src="https://images.slideplayer.es/2/5574261/slides/slide_6.jpg">  
+<p>-El costo de atender las necesidades cambiantes de los clientes se reduce.<br>
+-Es más fácil obtener retroalimentación de los clientes en el trabajo de desarrollo que se ha hecho.<br>
+-Más rápida entrega y despliegue de software de utilidad para el cliente es posible.</p>
+<h2>Modelo Espiral</h2> 
+  <center><img src="http://jamj2000.github.io/entornosdesarrollo/1/assets/espiral.png"></center>
+<p>Es un modelo de ciclo de vida desarrollado por Barry Boehm en 1988.<br>
+Las actividades de este modelo son una espiral, cada bucle es una actividad.<br>
+Las actividades no están fijadas a prioridad, sino que las siguientes se eligen en función del análisis de riesgo, comenzando por el bucle interior.<br>
+El Modelo Espiral mejora el Modelo de Cascada enfatizando la naturaleza iterativa del proceso de diseño. Eso introduce un ciclo de prototipo iterativo. En cada iteración, las nuevas expresiones que son obtenidas transformando otras dadas son examinadas para ver si representan progresos hacia el objetivo.</p>
+<h2>Desarrollo Rápido de Aplicaciones</h2>
+<center><img src="http://2.bp.blogspot.com/-x84rVY-9t1E/UZPlSIdsASI/AAAAAAAAAC0/e9tTE5rjGdE/s1600/jas.png"></center>
+<p>Es un modelo de proceso del ciclo de vida clásico que enfatiza un ciclo de vida de desarrollo extremadamente corto.<br>
+El modelo DRA es una adaptación a alta velocidad del ciclo de vida clásico en el que se logra el desarrollo rápido utilizando un enfoque de construcción basado en componentes. Si se comprenden bien los requisitos y se limita el ámbito del proyecto, el proceso DRA permite al equipo de desarrollo crear un sistema completamente funcional dentro de períodos cortos de tiempo.</p>
+<h2>Orientados a la Reutilización</h2>  
+<center><img src="http://image.slidesharecdn.com/1presentacion1-ingenieriadesoftware1-110302200240-phpapp01/95/1-presentacion1ingenieriadesoftware1-36-728.jpg?cb=1299096191"></center>
+<p>Esta aproximación se basa en la existencia de un número significativo de elementos reutilizables. El proceso de desarrollo, se centra en la integración de estos elementos en un sistema, en lugar de desarrollarlo desde cero.<br>
+Incorpora muchas características del modelo en espiral. Es evolutivo por naturaleza.</p>
+<h2>Orientado a Objetos</h2>
+<img src="https://ingsoftware.weebly.com/uploads/2/3/8/2/23822483/1147705_orig.png">  
+<p>El modelo orientado a objetos utiliza el paradigma de la orientación a objetos para el desarrollo de software.<br>
+Este enfoque realiza la construcción de modelos de un sistema por medio de la identificación y la especificación de un conjunto de objetos relacionados, que colaboran entre sí de acuerdo a los requerimientos establecidos para el sistema de objetos.</p>
+<h2>Procesos o Metodologías Ágiles</h2>  
+<center><img src="http://programaenlinea.net/wp-content/uploads/2015/06/metodologias.png"></center>
+<p>Cualquier proceso del software ágil se caracteriza por la forma en la que aborda cierto número de suposiciones clave [Fow02] acerca de la mayoría de proyectos de software:<br>
+1.-Es difícil predecir qué requerimientos de software persistirán y cuáles cambiarán. También es difícil pronosticar cómo cambiarán las prioridades del cliente a medida que avanza el proyecto.<br>
+2.-Para muchos tipos de software, el diseño y la construcción están imbricados.</p>
 </div>
