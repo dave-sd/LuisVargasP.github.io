@@ -6,7 +6,7 @@ title: Sobre mí
 <div class="post">
 	<div class="post">
 	<h1 class="pageTitle">Sobre mí</h1>
-	<center><img src="{{ '/assets/img/eslicerin.jpg' | prepend: site.baseurl }}" alt=""></center>
+	<center><img src="https://scontent.fgye13-1.fna.fbcdn.net/v/t1.0-9/16711926_373705296337447_7645573987769193433_n.jpg?_nc_cat=104&_nc_ohc=XeyPZDTGCe4AQnLKJ4ASwx15L7TlviZI-mmJ4We0_u5lfmVGkYm17Yjiw&_nc_ht=scontent.fgye13-1.fna&oh=ea607d52aee3f67ceb110159637baa43&oe=5E683562" alt=""></center>
 	<h2><b>Datos Personales</b></h2>
 	<p>Mi nombre es Luis Byron Vargas Peñafiel, nací en Guayaquil el 25 de mayo del 2001. Mis estudios primarios fueron en la Unidad Educativa Mariscal Sucre en Isidro Ayora donde fui uno de los mejores estudiante. A los 14 años ingrese al Colegio Dr. Isidro Ayora cueva por un periodo corto de tiempo y fui cambiado de Institución a la Unidad Educativa Milenio Dos de Agosto donde culmine mis estudios de Bachillerato. <br> Decidí continuar con mis estudios yendo a la Universidad e inscribiendome a la carrera Ingenieria en Software la cual apenas estoy cursando Nivelación. </p> 
         <h2>Experiencia Academica:</h2>
