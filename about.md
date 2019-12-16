@@ -9,7 +9,7 @@ title: Sobre mí
 	<center><img src="https://scontent.fgye13-1.fna.fbcdn.net/v/t31.0-8/p720x720/23157366_1615396288507272_3587144513640704742_o.jpg?_nc_cat=106&_nc_ohc=EiwwOmFSxogAQl1J3NdUvzbD10e4bGOOX4i0jWJ2HBuwv61VKYICkZtOQ&_nc_ht=scontent.fgye13-1.fna&oh=b46d139b2fd560f6bc530ae769adb407&oe=5E7BCC70" alt=""></center>
 	<h2><b>Datos Personales</b></h2>
 	<p>Mi nombre es Luis Byron Vargas Peñafiel, nací en Guayaquil el 25 de mayo del 2001. Mis estudios primarios fueron en la Unidad Educativa Mariscal Sucre en Isidro Ayora donde fui uno de los mejores estudiante. A los 14 años ingrese al Colegio Dr. Isidro Ayora cueva por un periodo corto de tiempo y fui cambiado de Institución a la Unidad Educativa Milenio Dos de Agosto donde culmine mis estudios de Bachillerato. <br> Decidí continuar con mis estudios yendo a la Universidad e inscribiendome a la carrera Ingenieria en Software la cual apenas estoy cursando Nivelación. </p> 
-        <h2>Experiencia Academica:</h2>
+        <h2>Experiencia Académica:</h2>
 	<h3> Crear un puzzle en Netbeans Java: </h3>
 	<center><img src="https://www.ajedrezeureka.com/wp-content/uploads/2016/12/rompecabezas-deslizantes-jugador-de-ajedrez.jpg" alt=""> </center>
 	<p> 21 noviembre del 2018 por motivo de casa abierta en la institución  decidieron que deberíamos centrarlo en programación, y la forma más interactiva que decidio mi grupo fue crear un juego</p>
