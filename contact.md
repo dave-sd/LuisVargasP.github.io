@@ -1,14 +1,17 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contactame
 ---
 
 <div id="contact">
-  <h1 class="pageTitle">Contact Me</h1>
+  <h1 class="pageTitle">Puedes contactarme en</h1>
   <div class="contactContent">
-    <p class="intro">This is an example Contact page. If you want to make changes then do so in the <code>contact.html</code> file.</p>
-    <p>The form is provided by <a href="http://formspree.io/">Formspree.</a> Follow the directions on their site to set up the form for use.</p>
-    <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>
+    <p class="intro">Puedes contactarme por mis diferentes redes sociales como :</p>
+    <p>Sigueme en <a href="https://www.facebook.com/profile.php?id=100010939398193">Facebook.</a> ahí subo muchos memes bien chidoris</p>
+    <p>Sigueme en <a href="https://twitter.com/LuisWorkout98">Twitter</a> no publico nada, pero sigueme 7u7 </p>
+    <p>Follow me <a href="https://www.instagram.com/vargas.penafiel.luis/?hl=es-la">Instagram</a> subo fotos de vez en cuando </p>
+    <p>Github <a href="https://github.com/LuisVargasP">Luis Vargas P.</a> 
+
   </div>
   <form action="http://formspree.io/your@mail.com" method="POST">
     <label for="name">Name</label>
