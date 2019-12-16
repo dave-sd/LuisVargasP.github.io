@@ -6,7 +6,7 @@ title: Contactame
 <div id="contact">
   <h1 class="pageTitle">Contactos</h1>
   <div class="contactContent">
-    <h2><p class="intro">Puedes contactarme por mis diferentes redes sociales como :</p></h2>
+    <p class="intro"><b>Puedes contactarme por mis diferentes redes sociales como :</p></b>
     <p>Sigueme en <a href="https://www.facebook.com/profile.php?id=100010939398193">Facebook.</a> ahí subo muchos memes bien chidoris<br>
     Sigueme en <a href="https://twitter.com/LuisWorkout98">Twitter</a> no publico nada, pero sigueme 7u7 <br>
     Follow me <a href="https://www.instagram.com/vargas.penafiel.luis/?hl=es-la">Instagram</a> subo fotos de vez en cuando <br>
