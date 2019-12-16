@@ -18,7 +18,7 @@ title: Sobre mí
 	<p>15 de febrero del 2018 me dieron una medalla por ser la tercer persona con mejor calificación en ese año. </p>
 	<h3>Culminación del colegio: </h3>
 	<center><img src="https://scontent.fgye13-1.fna.fbcdn.net/v/t1.0-9/p720x720/78894432_992565024451468_8906435782923780096_o.jpg?_nc_cat=104&_nc_ohc=wevMMpETF0AAQkaajjtTJtiz3tZEC6lrUGxN0nlySJ9WAqXzAleOESAow&_nc_ht=scontent.fgye13-1.fna&oh=4c62c3719458496f67bf083ba7295b0c&oe=5E725A04" alt=""></center>
-	<p>18 de febrero del 2019 después de mucho tiempo estudiando, al fin pude terminar bachillerato, doy gracias a Braily, Wikipedio, Rincon del Vago, y a mis panas que me pasaban los apuntes.</p>
+	<p>18 de febrero del 2019 después de mucho tiempo estudiando, al fin pude terminar bachillerato, doy gracias a Braily, Wikipedia, Rincón del Vago, y a mis panas que me pasaban los apuntes.</p>
 	<h3>Ingreso a nivelación: </h3>
 	<br><center><img src="https://www.eluniverso.com/sites/default/files/styles/powgallery_1024/public/fotos/2018/06/universidad_de_guayaquil_24330422.jpg?itok=bjMkFY-q" alt=""></center>
 	<p>21 de mayo del 2019 Conseguí cupo para la carrera que deseaba (Ing. Software) pero primero debía cursar nivelación. Fue una experiencia bonita, conocí a gente muy agradable y volví a aprender cosas que había olvidado :).</p>
